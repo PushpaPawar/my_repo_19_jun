@@ -1,12 +1,11 @@
 name: VPC deployment in AWS
-
 on:
   push:
     branches:
       main
 jobs:
   terraform-deploy:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     permissions:
       packagers: write
       contents: read

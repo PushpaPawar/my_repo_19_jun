@@ -7,7 +7,7 @@ jobs:
   terraform-deploy:
     runs-on: ubuntu-latest
     permissions:
-      packagers: write
+      packages: write
       contents: read
       id-token: write
     steps:

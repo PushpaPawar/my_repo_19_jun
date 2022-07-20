@@ -26,11 +26,7 @@ jobs:
       
       - name: Init project
         run: terraform init
-      
-      - name: Terraform Format
-        run: terraform fmt -check
-
-      
+  
       - name: Run TF plan
         run: terraform plan
 

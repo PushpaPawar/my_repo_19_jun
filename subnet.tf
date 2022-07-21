@@ -8,5 +8,5 @@ resource "aws_route_table_association" "Private" {
 }
 resource "aws_route_table_association" "Data" {
   subnet_id      = aws_subnet.Data.id
-  route_table_id = aws_route_table.nat_route_table.id
+  route_table_id = aws_route_table.nat_route.id
 }
